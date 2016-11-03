@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CitiZen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+	<link href="css/stuff.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<!-- javascript dependencies -->
+    <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+	<!-- fullPage -->
+	<link rel="stylesheet" type="text/css" href="fullPage/jquery.fullPage.css"/>
+	<script type="text/javascript" src="fullPage/jquery.fullPage.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+            $('#fullpage').fullpage({
+				sectionsColor: ['#FFFFFF', '#337ab7', '#FFFFFF', '#337ab7', '#FFFFFF', '#337ab7', '#FFFFFF'],
+				anchors: ['introPg', 'aboutPg', 'mechanicsPg', 'featuresPg', 'portfolioPg', 'teamPg', 'joinPg'],
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+<div id="fullpage">
+    <!-- Intro -->
+	<div class="section" id="section0">
+		<div class="container">
+		<center>
+			<div class="text-vertical-center">
+				<img style="height:245px; width:200px"src="img/citizen.png">
+				<h3><i>Make a change through your spending today</i></h3>
+				<br>
+        <a href="https://citizen-app.herokuapp.com/#/" class="btn btn-lg btn-dark">Start your journey today!</a>
+        <br><br><br><br><br>
+				<a href="#aboutPg"><img src="img/929.png" style="height:60px; width:60px; float: bottom"/></a>
+			</div>
+		</center>
+		</div>
+	</div>
+
+
+    <!-- About -->
+	<div class="section" id="section1">
+        <div class="container">
+          <br><br>
+            <div class="row">
+                <div class="text-center">
+                    <h2>What is CitiZen?</h2>
+                    <hr class="small">
+                    <p><i>"A platform for our Citi customers to be a part of our CSR initiatives when they bank with us"</i></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+	</div>
+
+    <!-- Mechanics -->
+	<div class="section" id="section2">
+    <section id="mechanics" style="height:100%" class="mechanics">
+      <div class="container">
+        <div class="col-lg-12 text-center"><br><br><br>
+          <h2>Mechanics behind CitiZen</h2>
+          <hr class="small">
+          <img class="img-portfolio img-responsive" src="img/diagram.png">
+        </br>
+        </div>
+      </div>
+    </section>
+	</div>
+
+    <!-- Our features -->
+	<div class="section" id="section3">
+    <section id="services" style="height:100%" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our features</h2>
+                    <hr class="small"><br><br>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-money fa-stack-1x text-primary"></i>
+								</span>
+                                <h2>
+                                    <strong>Exchange for cash</strong>
+                                </h2>
+                                <p>Non-Profit Organizations through the CitiZen platform, can use the points to exchange for cash to fund the cause. Or buy things with the points with Retailers who accepts Citi’s API</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+								<span class="fa-stack fa-4x">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-heart fa-stack-1x text-primary"></i>
+								</span>
+                                <h2>
+                                    <strong>Donate points</strong>
+                                </h2>
+                                <p>CitiZen Users can donate more points on the platform</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-shield fa-stack-1x text-primary"></i>
+								</span>
+                                <h2>
+                                    <strong>Train for more</strong>
+                                </h2>
+                                <p>Non-Existing Citi customers can undergo an onboarding process on CitiZen and receive 500 points from Citi to help them kickstart the notion of doing good</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+								<span class="fa-stack fa-4x">
+									<i class="fa fa-circle fa-stack-2x"></i>
+									<i class="fa fa-compass fa-stack-1x text-primary"></i>
+								</span>
+                                <h2>
+                                    <strong>Easy tracking</strong>
+                                </h2>
+                                <p>CitiZen users can keep track of how have they benefited the cause and also recommend family/friends to be a part of the cause</p>
+                                <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+	</div>
+
+    <!-- Portfolio -->
+	<div class="section" id="section4">
+    <section id="portfolio" style="height:100%" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Our initiatives</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/plant_a_tree.jpg">
+                                </a>
+                                <h4><i>Plant a tree project</i></h4>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/african_children.jpg">
+                                </a>
+                                <h4><i>Adopt an African Child</i></h4>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/african_elephant.jpg">
+                                </a>
+                                <h4><i>Save the elephants</i></h4>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4">
+							<div class="portfolio-item">
+                            <a href="#">
+                              <img class="img-portfolio img-responsive" src="img/elderly_care.jpg">
+                            </a>
+                            <h4><i>Fight Elderly Depression</i></h4>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-4 ">
+							<div class="portfolio-item">
+							<a href="#">
+								<img class="img-portfolio img-responsive" src="img/stop_ebola.jpg">
+							</a>
+							<h4><i>Raise Ebola Awareness</i></h4>
+							</div>
+						</div>
+					</div>
+                    <!-- /.row (nested) -->
+                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+	</div>
+
+	<div class="section" id="section5">
+    <section id="team" style="height:100%;" class="team bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1"><br><br><br>
+                <h2>Our team</h2>
+                <hr class="small">
+                <br><br><br>
+                <div class="row">
+					<div class="col-xs-6 col-md-4 col-sm-4">
+                        <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <a href="https://www.linkedin.com/in/nehal-shah-patel-53a5981?trk=send_invitation_success_message_name&goback=%2Enpv_ADEAAABDnf4BwFsZltaAg5J7dHjZb9RWQSqc*4Pc_*1_*1_NAME*4SEARCH_z8EZ_*1_en*4US_*1_*1_*1_2199608061478138579722_1_1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_vsrp*4people*4res*4name_*1_*1"><img class="fa fa-stack-1x text-primary" src="img/Nehal.png"></a>
+                          <!-- <i class="fa fa-money fa-stack-1x text-primary"></i> -->
+						</span>
+                          <h3>
+                              <strong>Nehal Shah Patel</strong>
+                          </h3>
+                          <p>API Tester</p>
+                          <br><br>
+                          <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-sm-4">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <a href="https://www.linkedin.com/in/lim-junyang-leon-2bb51162?trk=send_invitation_success_message_name&goback=%2Enpv_AAkAAA0*59W8BgF5ryzUWpqzpGldTf8yscykMxMQ_*1_*1_NAME*4SEARCH_A6kO_*1_en*4US_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_tyah_*1_*1"><img class="fa fa-stack-1x text-primary" src="img/leon.png"></a>
+                            <!-- <i class="fa fa-money fa-stack-1x text-primary"></i> -->
+                        </span>
+                            <h3>
+                                <strong>Leon Lim</strong>
+                            </h3>
+                            <p>Frontend engineer</p>
+                            <br><br>
+                            <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                    </div>
+                    <div class="col-xs-6 col-md-4 col-sm-4">
+                        <div class="service-item">
+                          <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <a href="https://www.linkedin.com/people/invite?from=profile&key=235424771&firstName=Gregory&lastName=Sng&authToken=IxW3&authType=NAME_SEARCH&connectionParam=member_desktop_profile_top-card-primary&csrfToken=ajax%3A8801146991788854438&goback=%2Enpv_AAkAAA4ITAMB7CcubLTiYlrgfcEH37oVPz*5oRqI_*1_*1_NAME*4SEARCH_IxW3_*1_en*4US_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_*1_tyah_*1_*1&trk=prof-0-sb-connect-button"><img class="fa fa-stack-1x text-primary" src="img/greg.png"></a>
+                          <!-- <i class="fa fa-heart fa-stack-1x text-primary"></i> -->
+                      </span>
+
+                            <h3>
+                                <strong>Gregory Sng</strong>
+                            </h3>
+                            <p>Backend engineer</p>
+                            <br><br>
+                            <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="service-item">
+                            <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <img class="fa fa-stack-1x text-primary" src="img/vincent.png">
+                            <!-- <i class="fa fa-shield fa-stack-1x text-primary"></i> -->
+                        </span>
+                            <h3>
+                                <strong>Vincent He</strong>
+                            </h3>
+                            <p>Backend engineer</p>
+                            <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="service-item">
+                          <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <a href="https://www.linkedin.com/in/tianghuihui?trk=nav_responsive_tab_profile_pic"><img class="fa fa-stack-1x text-primary" src="img/hui.png"></a>
+                          <!-- <i class="fa fa-compass fa-stack-1x text-primary"></i> -->
+                      </span>
+                            <h3>
+                                <strong>Tiang Hui Hui</strong>
+                            </h3>
+                            <p>Frontend engineer</p>
+                            <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+                    </div>
+                </div>
+                <!-- /.row (nested) -->
+            </div>
+            <!-- /.col-lg-10 -->
+        </div>
+        <!-- /.row -->
+    </div>
+	</section>
+	</div>
+
+  <div class="section fp-auto-height" id="section6">
+  <aside class="callout">
+      <div class="text-vertical-center">
+          <h2><strong>Make a change with CitiZen today!</strong></h2>
+          <a href="https://citizen-app.herokuapp.com/#/" class="btn btn-lg btn-dark">Start your journey today!</a>
+      </div>
+  </aside>
+  </div>
+
+</div>
+
+    <!-- jQuery -->
+    <!-- <script src="js/jquery.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
